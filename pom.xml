@@ -4,6 +4,9 @@
   <artifactId>teste</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  
+  
+  
   	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -40,12 +43,21 @@
 		    <version>6.9.10</version>
 		    <scope>test</scope>
 		</dependency>
-
-		
-		
 	</dependencies>
 	
-	
-  
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.0</version>
+          <configuration>
+            <!-- put your configurations here -->
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
   
 </project>
